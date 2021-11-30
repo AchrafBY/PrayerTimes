@@ -52,6 +52,12 @@ function getNext(dictTimes) {
 }
 
 function changeBgColor(id) {
+    document.getElementById("Fajr").style.backgroundColor = "#FFFFFF;";
+    document.getElementById("Dhuhr").style.backgroundColor = "#FFFFFF;";
+    document.getElementById("Asr").style.backgroundColor = "#FFFFFF;";
+    document.getElementById("Maghrib").style.backgroundColor = "#FFFFFF;";
+    document.getElementById("Isha").style.backgroundColor = "#FFFFFF;";
+
     document.getElementById(id).style.backgroundColor = "#099b04";
 }
 
